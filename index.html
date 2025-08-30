@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPCA & Salário</title>
+    <link rel="icon" type="image/svg+xml" href="assets/imagens/meu-icone-codigo.svg">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+    </style>
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+
+</head>
+
+<body>
+
+    <main>
+        <div id="titulo-da-aplicacao" class="titulo-da-aplicacao">
+            <h1> Relatório IPCA & Salarial </h1>
+        </div>
+
+        <div id="botao-opcoes" class="botao-opcoes">
+            <select name="opcoes" id="opcoes" class="seletor-de-opcoes">
+                <option value="opcao-1">Escolha uma opção:</option>
+                <option value="opcao-1">1 - Listar os salários minímos de 2010 à 2020</option>
+                <option value="opcao-2">2 - Listar o índice IPCA de 2010 à 2020</option>
+                <option value="opcao-3">3 - Comparação entre o percentual de aumento salarial e o IPCA</option>
+            </select>
+        </div>
+        <div id="quadro-1-conteudo" class="quadro-1-conteudo">
+            <p id="conteudo" class="conteudo">
+                teste
+            </p>
+        </div>
+
+    </main>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

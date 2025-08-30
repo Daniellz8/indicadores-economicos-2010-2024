@@ -1,0 +1,57 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*===================================================================*/
+
+.titulo-da-aplicacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: #8891BF;
+}
+
+.titulo-da-aplicacao h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    color: #ffffff;
+}
+
+/*===================================================================*/
+
+.botao-opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.seletor-de-opcoes {
+    font-weight: 600;
+    border-radius: 5px;
+    border: #9c9c9c solid 1px;
+    height: 30px;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+}
+
+/*===================================================================*/
+
+.quadro-1-conteudo {
+    width: 90%;
+    height: 600px;
+    background-color: #dcdcdc;
+    border-radius: 5px;
+}
+
+.conteudo {
+    width: 80%;
+    padding-top: 20px;
+}
