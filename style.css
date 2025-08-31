@@ -11,7 +11,9 @@
     align-items: center;
     justify-content: center;
     height: 120px;
-    background-color: #8891BF;
+    background-image: url('/assets/pexels-daniel-dan-47825192-7542862.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .titulo-da-aplicacao h1 {
@@ -20,6 +22,7 @@
     justify-content: center;
     width: 90%;
     color: #ffffff;
+    text-shadow: #000 3px 3px 6px;
 }
 
 /*===================================================================*/
@@ -40,6 +43,8 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     outline: none;
+    background-color: #4091ba;
+    color: #fff;
 }
 
 /*===================================================================*/
