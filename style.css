@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     height: 120px;
-    background-image: url('/assets/pexels-daniel-dan-47825192-7542862.jpg');
+    background-image: url('./assets/pexels-daniel-dan-47825192-7542862.jpg');
     background-size: cover;
     background-position: center;
 }
